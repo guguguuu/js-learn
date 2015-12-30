@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<style>
+div{
+	width:300px;
+	height:200px;
+	background-color:#f00;
+}
+</style>
+</head>
+<body>
+<div id="did" class="sss">
+	<strong>document.documentElement.innerHTML</strong>
+</div>
+</body>
+<script>
+var arr=new Array(1,2,3);
+alert(arr);
+
+var arr1=new Array([5]);
+arr1="1,2,3,4,5";
+alert(arr1);
+</script>
+</html>

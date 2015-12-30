@@ -1,0 +1,21 @@
+w alert&documentWrite
+2.js_output
+w 2.js_output
+w 3.documentLocation
+w 4.jsClass
+5.array
+w 5.array
+w 6.jsStyle
+w 7.array
+8.Object
+8.w Object
+w Object
+ w 8.object
+nohl
+w 9.number
+10.eval
+w 10.eval
+w
+11.json_string2object
+q:
+

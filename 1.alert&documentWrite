@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<style>
+div{
+	width:300px;
+	height:200px;
+	background-color:#f00;
+}
+</style>
+</head>
+<script>
+document.write("<strong>aaaaaaaaaaa</strong>");
+</script>
+<body>
+<div id="did" class="sss">
+	<strong>document.documentElement.innerHTML</strong>
+</div>
+</body>
+<script>
+alert(document.head.outerHTML);
+</script>
+</html>

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>index</title>
+<style>
+div{
+	width:300px;
+	height:200px;
+	background-color:#f00;
+}
+</style>
+</head>
+<body>
+<div id="did" class="sss">
+	<strong>document.documentElement.innerHTML</strong>
+	<img id="a" src="s4.png">
+</div>
+</body>
+<script>
+var name=null; 
+alert(name);
+var name2=NaN; //not a number..?
+alert(name2);
+var name1=undefined; 
+alert(name1);
+
+var num="10aaa";
+alert(Number(num));
+
+var num5="10aaa";
+alert(parseInt(num));
+//Global method:parseFloat;eval;typeof; isNaN;String;Number;Array;Object;Bool
+//encodeURIComponent, decodeURIComponent
+var num1="10";
+alert(Number(num1));
+
+var num2=null;
+alert(typeof(num2));
+
+var num3=NaN ;
+alert(isNaN(num3));
+
+
+</script>
+</html>
