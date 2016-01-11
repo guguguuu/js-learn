@@ -13,22 +13,22 @@ div{
 </head>
 <body>
 <div id="did" class="sss">
+	<strong>document.documentElement.innerHTML</strong>
 </div>
-<input type="text" onblur="alert(this.value">
+<input type="text" onblur="alert(this.value)">
 </body>
 <script>
-var imgobj=document.getElementById("did");
 
-setInterval("settim()",1000);
 
-function settim(){
-	var dd =new Date();
 
-	
-	imgobj.innerHTML=dd;
+var say=function(){
+	alert("asdf")
 }
+say();
 
-
-
+function say1(){
+	alert(123);
+}
+say1();
 </script>
 </html>
